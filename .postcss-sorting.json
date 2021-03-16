@@ -110,6 +110,7 @@
     "empty-cells",
     "caption-side",
     "font",
+    "@include",
     "font-weight",
     "font-size",
     "line-height",

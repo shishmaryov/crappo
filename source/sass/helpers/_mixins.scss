@@ -1,0 +1,66 @@
+@mixin h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: auto;
+}
+
+@mixin h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+}
+
+@mixin h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+@mixin ttl-lrg {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+@mixin ttl-smll {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 4%;
+}
+
+@mixin txt-l-mdm {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+@mixin txt-l-rglr {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+@mixin txt-stnd-mdm {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+@mixin txt-stnd-rglr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+@mixin txt-smll-mdm {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+@mixin txt-smll-rglr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}

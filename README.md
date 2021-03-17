@@ -18,6 +18,6 @@ Demo:
 Tehnologies:
 Languages: HTML5, CSS3, Javascript
 
-Libraries: jQuery, slick
+: picturefill
 
 Approach: mobile first

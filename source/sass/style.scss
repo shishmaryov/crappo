@@ -13,4 +13,27 @@
 @import "pages//index";
 
 // Blocks
-@import "blocks/container.scss";
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/login";
+@import "blocks/promo";
+@import "blocks/discount";
+@import "blocks/achievements";
+@import "blocks/achievement";
+@import "blocks/why";
+
+@import "blocks/check";
+@import "blocks/rate-form";
+@import "blocks/calc";
+@import "blocks/revenue";
+@import "blocks/cryptocurrencies";
+@import "blocks/crypto";
+@import "blocks/infrastructure";
+@import "blocks/invest";
+@import "blocks/stat";
+@import "blocks/profit";
+@import "blocks/subscribe";
+@import "blocks/footer";
+@import "blocks//payment-systems";
+@import "blocks/social-icons";

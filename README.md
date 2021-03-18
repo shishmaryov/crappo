@@ -1,9 +1,9 @@
 # Lasles VPN
 Web developer: Konstantin Shishmaryov
 
-Designer: 
+Designer: Illiyin Studio
 
-[Design](https://)
+[Design](https://www.uplabs.com/posts/crappo-cryptocurrency-website-freebie-dfdd873f-ad15-4f5f-9311-8dbc08c3cebe)
 
 
 

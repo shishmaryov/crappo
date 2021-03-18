@@ -7,7 +7,7 @@ Designer:
 
 
 
-Site: <https://shishmaryov.github.io/crappo/build/index.html/>
+Site: <https://shishmaryov.github.io/crappo/build/>
 
 
 

@@ -1,11 +1,23 @@
 .payment-systems {
+  grid-area: pay;
+  max-width: 355px;
+  margin-top: 80px;
 
   &__title {
-
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: $white;
+    @include ttl-lrg;
   }
 
   &__list {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 335px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
   }
 
   &__item {

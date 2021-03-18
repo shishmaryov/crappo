@@ -1,10 +1,42 @@
 .calc {
 
   &__input-rate {
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    color: $primary-color;
+    border: none;
+    border-bottom: 1px solid $grey-3;
+    @include txt-l-rglr;
 
+    &::placeholder {
+      color: $primary-color;
+      @include txt-l-rglr;
+    }
   }
 
   &__input-ths {
+    width: 200px;
+    margin: 0;
+    padding: 0px;
+    color: $primary-color;
+    border: none;
+    border-bottom: 1px solid $grey-3;
+    @include txt-l-rglr;
 
+    &::placeholder {
+      color: $primary-color;
+      @include txt-l-rglr;
+    }
+  }
+
+  &__button {
+    padding: 16px 32px;
+    color: $white;
+    text-decoration: none;
+    background-color: $accent-color;
+    border: none;
+    border-radius: 50px;
+    @include txt-stnd-mdm;
   }
 }

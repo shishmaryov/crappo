@@ -1,18 +1,54 @@
 .promo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
 
   &__text-block {
-
+    margin-top: 80px;
   }
 
   &__title {
-
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: $white;
+    @include h1;
   }
 
   &__text {
-
+    margin-top: 0;
+    margin-bottom: 35px;
+    color: $white;
+    color: $grey-3;
+    @include txt-smll-rglr;
   }
 
-  &__link {
+  &__button {
+    position: relative;
+    width: 202px;
+    height: 64px;
+    margin-bottom: 140px;
+    padding: 18.5px 72px 18.5px 24px;
+    color: $white;
+    text-decoration: none;
+    background-color: $accent-color;
+    border: none;
+    border-radius: 30px;
+    @include txt-stnd-mdm;
 
+    &::after {
+      content: url("../../img/icons/icon-arrow-right.svg");
+      position: absolute;
+      top: 13px;
+      right: 24px;
+    }
+  }
+
+  &__img {
+    width: 50%;
+    height: auto;
+
+    @media(min-width: 768px){
+      width: 100%;
+    }
   }
 }

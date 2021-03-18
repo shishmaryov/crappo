@@ -1,17 +1,76 @@
 .subscribe {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3671E9;
+  border-radius: 15px;
+
+  &::before {
+    content: url("../../img/subscribe-before.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &::after {
+    content: url("../../img/subscribe-after.svg");
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
 
   &__text-block {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+  }
 
+  &__title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: $white;
+    @include h3;
+  }
+
+  &__text {
+    max-width: 350px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $white;
+    @include txt-smll-rglr;
   }
 
   &-form {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
 
     &__input {
+      width: 375px;
+      margin-right: 40px;
+      padding-bottom: 7px;
+      color: $white;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid $grey-1;
+      @include txt-smll-rglr;
 
+      &::placeholder {
+        color: $white;
+        @include txt-smll-rglr;
+      }
     }
 
     &__button {
-
+      margin-right: 50px;
+      padding: 14px 32px;
+      color: $primary-color;
+      background-color: $white;
+      border: none;
+      border-radius: 35px;
+      @include txt-stnd-mdm;
     }
   }
 }

@@ -16,3 +16,11 @@
     @include txt-smll-mdm;
   }
 }
+
+.header__right--active {
+  .login {
+    display: block;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+}

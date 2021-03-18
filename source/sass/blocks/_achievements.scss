@@ -1,11 +1,17 @@
 .achievements {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 100px;
 
   &__item {
     position: relative;
+    padding-bottom: 50px;
     padding-left: 104px;
+
+    @media(min-width: 1024px){
+      padding-bottom: 0;
+    }
 
     &::before {
       content: "";
@@ -31,6 +37,8 @@
     }
 
     &--195 {
+      padding-bottom: 0;
+
       &::before {
         content: url(../img/icons/icon-earth.svg);
       }

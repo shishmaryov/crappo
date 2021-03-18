@@ -1,9 +1,14 @@
 .discount {
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 365px;
-  background-color: #252540;
   border-radius: 50px;
+
+  @media(min-width: 768px){
+    flex-direction: row;
+    background-color: #252540;
+  }
 
   &__price {
     padding: 5px 15px;
@@ -15,7 +20,9 @@
 
   &__text {
     margin: 0;
+    margin-top: 15px;
     margin-left: 15px;
+    padding-bottom: 15px;
     color: $white;
   }
 }

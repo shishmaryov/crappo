@@ -17,8 +17,7 @@ Demo:
 
 ## Tehnologies
 
-Languages: HTML5, CSS3, Javascript
-
-
-
-Approach: mobile first
+- HTML5
+- SCSS 
+- Javascript
+- Mobile first

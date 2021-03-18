@@ -4,10 +4,15 @@
     width: 400px;
     margin: 0;
     padding: 0;
+    text-align: center;
     color: $primary-color;
     border: none;
     border-bottom: 1px solid $grey-3;
     @include txt-l-rglr;
+
+    @media(min-width: 1024px){
+      text-align: left;
+    }
 
     &::placeholder {
       color: $primary-color;
@@ -19,10 +24,15 @@
     width: 200px;
     margin: 0;
     padding: 0px;
+    text-align: center;
     color: $primary-color;
     border: none;
     border-bottom: 1px solid $grey-3;
     @include txt-l-rglr;
+
+    @media(min-width: 1024px){
+      text-align: left;
+    }
 
     &::placeholder {
       color: $primary-color;

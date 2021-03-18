@@ -10,7 +10,71 @@
   }
 
   &__right {
-    display: flex;
-    vertical-align: middle;
+    display: none;
+
+    @media(min-width: 1024px){
+      display: flex;
+      align-items: center;
+
+      }
+
+    &--active {
+      position: absolute;
+      top: 120px;
+      right: 0;
+      z-index: 2;
+      display: block;
+      background-color: $primary-color;
+      border-radius: 15px;
+    }
+  }
+
+  &__burger {
+    position: relative;
+    z-index: 4;
+    display: block;
+    height: 37px;
+    padding-right: 70px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+
+    @media(min-width: 1024px){
+      display: none;
+      padding-right: 0;
+    }
+  }
+  &__burger span,
+  &__burger span::before,
+  &__burger span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 2px; margin-top: -1px; margin-left: -10px;
+    background-color: $white;
+  }
+  &__burger span::before,
+  &__burger span::after {
+    content: '';
+    display: block;
+    transition: 0.2s;
+  }
+  &__burger span::before {
+    transform: translateY(-5px);
+  }
+  &__burger span::after {
+    transform: translateY(5px);
+  }
+
+  &__burger--active span:before {
+    width: 10px;
+    transform: rotate(-35deg);
+    transform-origin: left bottom;
+  }
+  &__burger--active span:after {
+    width: 10px;
+    transform: rotate(35deg);
+    transform-origin: left top;
   }
 }

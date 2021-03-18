@@ -1,7 +1,13 @@
 .promo {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 100px;
+
+  @media(min-width: 1200px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   &__text-block {
     margin-top: 80px;
@@ -26,7 +32,7 @@
     position: relative;
     width: 202px;
     height: 64px;
-    margin-bottom: 140px;
+    margin-bottom: 50px;
     padding: 18.5px 72px 18.5px 24px;
     color: $white;
     text-decoration: none;
@@ -34,6 +40,10 @@
     border: none;
     border-radius: 30px;
     @include txt-stnd-mdm;
+
+    @media(min-width: 1200px) {
+      margin-bottom: 140px;
+    }
 
     &::after {
       content: url("../../img/icons/icon-arrow-right.svg");
@@ -44,11 +54,12 @@
   }
 
   &__img {
-    width: 50%;
-    height: auto;
+    width: 300px;
+    height: 100%;
 
-    @media(min-width: 768px){
-      width: 100%;
+    @media(min-width: 1200px){
+      width: 604px;
+      height: auto;
     }
   }
 }

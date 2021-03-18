@@ -15,7 +15,7 @@ Demo:
 ![Preview](Preview.jpg)
 
 
-Tehnologies:
+##Tehnologies
 
 Languages: HTML5, CSS3, Javascript
 

@@ -1,10 +1,21 @@
 .discount {
+  display: flex;
+  align-items: center;
+  width: 365px;
+  background-color: #252540;
+  border-radius: 50px;
 
   &__price {
-
+    padding: 5px 15px;
+    color: $primary-color;
+    background-color: $white;
+    border-radius: 30px;
+    @include txt-smll-mdm;
   }
 
   &__text {
-
+    margin: 0;
+    margin-left: 15px;
+    color: $white;
   }
 }

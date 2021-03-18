@@ -1,10 +1,15 @@
 .achievement {
-
   &__title {
-
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: $white;
+    @include h2;
   }
 
   &__description {
-
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $white;
+    @include txt-smll-rglr;
   }
 }

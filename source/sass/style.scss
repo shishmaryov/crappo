@@ -13,16 +13,16 @@
 @import "pages//index";
 
 // Blocks
+@import "blocks/bg";
 @import "blocks/container";
 @import "blocks/header";
 @import "blocks/nav";
 @import "blocks/login";
-@import "blocks/promo";
 @import "blocks/discount";
+@import "blocks/promo";
 @import "blocks/achievements";
 @import "blocks/achievement";
 @import "blocks/why";
-
 @import "blocks/check";
 @import "blocks/rate-form";
 @import "blocks/calc";

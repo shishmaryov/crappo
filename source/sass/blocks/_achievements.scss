@@ -1,17 +1,39 @@
 .achievements {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
 
   &__item {
+    position: relative;
+    padding-left: 104px;
 
-    &--30b {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0px;
+      width: 80px;
+      height: 80px;
+      background-color: #262641;
+      border-radius: 50%;
+    }
 
+    &--30B {
+      &::before {
+        content: url(../img/icons/icon-bar.svg);
+      }
     }
 
     &--10M {
-
+      &::before {
+        content: url(../img/icons/icon-person.svg);
+      }
     }
 
-    &__195 {
-
+    &--195 {
+      &::before {
+        content: url(../img/icons/icon-earth.svg);
+      }
     }
   }
 }

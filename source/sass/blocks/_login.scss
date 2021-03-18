@@ -1,10 +1,18 @@
 .login {
 
   &__in {
-
+    margin-right: 50px;
+    color: $white;
+    text-decoration: none;
+    @include txt-smll-mdm;
   }
 
   &__up {
-
+    padding: 14px 32px;
+    color: $white;
+    text-decoration: none;
+    background-color: $accent-color;
+    border-radius: 50px;
+    @include txt-smll-mdm;
   }
 }

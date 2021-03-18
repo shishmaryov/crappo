@@ -1,14 +1,33 @@
 .why {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__text-block {
+
+  }
 
   &__title {
-
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: $white;
+    @include h2;
   }
 
   &__text {
-
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-bottom: 45px;
+    color: $grey-3;
+    @include txt-smll-rglr;
   }
 
   &__link {
-
+    padding: 16px 24px;
+    color: $white;
+    text-decoration: none;
+    background-color: $accent-color;
+    border-radius: 50px;
+    @include txt-stnd-mdm;
   }
 }

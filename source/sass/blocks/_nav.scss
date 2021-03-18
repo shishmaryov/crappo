@@ -1,7 +1,13 @@
 .nav {
+  margin-right: 55px;
 
   &__list {
-
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
   }
 
   &__item {
@@ -10,6 +16,8 @@
   }
 
   &__link {
-
+    color: $white;
+    text-decoration: none;
+    @include txt-smll-rglr;
   }
 }

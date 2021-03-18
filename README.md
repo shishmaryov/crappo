@@ -7,7 +7,7 @@ Designer:
 
 
 
-Site: <https://shishmaryov.github.io/>
+Site: <https://shishmaryov.github.io/crappo/build/index.html/>
 
 
 
@@ -16,8 +16,9 @@ Demo:
 
 
 Tehnologies:
+
 Languages: HTML5, CSS3, Javascript
 
-: picturefill
+
 
 Approach: mobile first

@@ -62,11 +62,23 @@
       color: $white;
       background-color: transparent;
       border: none;
-      border-bottom: 1px solid $grey-1;
+      border-bottom: 1px solid $white;
       @include txt-smll-rglr;
 
       @media(min-width: 1200px){
         width: 375px;
+      }
+
+      &:hover {
+        border-bottom: 1px solid $grey-3;
+      }
+
+      &:active {
+        border-bottom: 1px solid $grey-3;
+      }
+
+      &:focus {
+        border-bottom: 1px solid $grey-3;
       }
 
       &::placeholder {
@@ -76,6 +88,7 @@
     }
 
     &__button {
+      width: 152px;
       margin-top: 40px;
       margin-right: 50px;
       margin-bottom: 50px;
@@ -84,11 +97,23 @@
       background-color: $white;
       border: none;
       border-radius: 35px;
+      cursor: pointer;
       @include txt-stnd-mdm;
 
       @media(min-width: 1200px){
         margin-top: 0;
         margin-bottom: 0;
+      }
+
+      &:hover {
+        padding: 12px 30px;
+        color: $white;
+        background-color: $accent-color;
+        border: 2px solid $white;
+      }
+
+      &:active {
+        color: $grey-3;
       }
     }
   }

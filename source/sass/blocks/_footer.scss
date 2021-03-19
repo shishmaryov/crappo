@@ -37,6 +37,14 @@
       color: $grey-4;
       text-decoration: none;
       @include txt-smll-rglr;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &:active {
+        color: $grey-3;
+      }
     }
   }
 

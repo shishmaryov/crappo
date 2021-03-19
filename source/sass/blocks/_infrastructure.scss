@@ -22,5 +22,14 @@
     text-decoration: none;
     background-color: #3671e9;
     border-radius: 50px;
+
+    &:hover {
+      background-color: #598EFB;
+    }
+
+    &:active {
+      color: $grey-3;
+      background-color: #1F5BD4;
+    }
   }
 }

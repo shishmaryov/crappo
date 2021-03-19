@@ -47,14 +47,22 @@
     border-radius: 30px;
     @include txt-stnd-mdm;
 
+    &:hover {
+      background-color: #598EFB;
+    }
+
+    &:active {
+      background-color: #1F5BD4;
+    }
+
     @media(min-width: 1200px) {
       margin-bottom: 140px;
     }
 
     &::after {
-      content: url("../../img/icons/icon-arrow-right.svg");
+      content: url("../img/icons/icon-arrow-right.svg");
       position: absolute;
-      top: 13px;
+      top: 16px;
       right: 24px;
     }
   }

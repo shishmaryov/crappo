@@ -519,11 +519,16 @@ img {
     padding-left: 0;
     list-style: none; }
   .nav__link {
+    position: relative;
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%; }
+    .nav__link:hover {
+      text-decoration: underline; }
+    .nav__link:active {
+      color: #E0E0E0; }
 
 .header__right--active .nav__list {
   display: block;
@@ -549,6 +554,11 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%; }
+  .login__up:hover {
+    background-color: #598EFB; }
+  .login__up:active {
+    color: #E0E0E0;
+    background-color: #1F5BD4; }
 
 .header__right--active .login {
   display: block;
@@ -648,13 +658,17 @@ img {
     font-weight: 500;
     font-size: 18px;
     line-height: 150%; }
+    .promo__button:hover {
+      background-color: #598EFB; }
+    .promo__button:active {
+      background-color: #1F5BD4; }
     @media (min-width: 1200px) {
       .promo__button {
         margin-bottom: 140px; } }
     .promo__button::after {
-      content: url("../../img/icons/icon-arrow-right.svg");
+      content: url("../img/icons/icon-arrow-right.svg");
       position: absolute;
-      top: 13px;
+      top: 16px;
       right: 24px; }
   .promo__img {
     width: 300px;
@@ -792,6 +806,11 @@ img {
     font-weight: 500;
     font-size: 18px;
     line-height: 150%; }
+    .why__link:hover {
+      background-color: #598EFB; }
+    .why__link:active {
+      color: #E0E0E0;
+      background-color: #1F5BD4; }
 
 .check {
   position: relative;
@@ -971,6 +990,11 @@ img {
   font-weight: 500;
   font-size: 18px;
   line-height: 150%; }
+  .calc__button:hover {
+    background-color: #598EFB; }
+  .calc__button:active {
+    color: #E0E0E0;
+    background-color: #1F5BD4; }
 
 .revenue__title {
   margin-top: 0;
@@ -1091,10 +1115,15 @@ img {
     font-weight: 500;
     font-size: 18px;
     line-height: 150%; }
+    .crypto__link:hover {
+      background-color: #598EFB; }
+    .crypto__link:active {
+      color: #E0E0E0;
+      background-color: #1F5BD4; }
     .crypto__link::after {
-      content: url("../../img/icons/icon-arrow-right.svg");
+      content: url("../img/icons/icon-arrow-right.svg");
       position: absolute;
-      top: 15px;
+      top: 13px;
       right: 24px;
       width: 32px;
       height: 32px; }
@@ -1122,6 +1151,11 @@ img {
     text-decoration: none;
     background-color: #3671e9;
     border-radius: 50px; }
+    .infrastructure__link:hover {
+      background-color: #598EFB; }
+    .infrastructure__link:active {
+      color: #E0E0E0;
+      background-color: #1F5BD4; }
 
 .invest {
   display: -webkit-box;
@@ -1290,13 +1324,19 @@ img {
       color: #FFFFFF;
       background-color: transparent;
       border: none;
-      border-bottom: 1px solid #828282;
+      border-bottom: 1px solid #FFFFFF;
       font-weight: 400;
       font-size: 16px;
       line-height: 150%; }
       @media (min-width: 1200px) {
         .subscribe-form__input {
           width: 375px; } }
+      .subscribe-form__input:hover {
+        border-bottom: 1px solid #E0E0E0; }
+      .subscribe-form__input:active {
+        border-bottom: 1px solid #E0E0E0; }
+      .subscribe-form__input:focus {
+        border-bottom: 1px solid #E0E0E0; }
       .subscribe-form__input::-webkit-input-placeholder {
         color: #FFFFFF;
         font-weight: 400;
@@ -1323,6 +1363,7 @@ img {
         font-size: 16px;
         line-height: 150%; }
     .subscribe-form__button {
+      width: 152px;
       margin-top: 40px;
       margin-right: 50px;
       margin-bottom: 50px;
@@ -1331,6 +1372,7 @@ img {
       background-color: #FFFFFF;
       border: none;
       border-radius: 35px;
+      cursor: pointer;
       font-weight: 500;
       font-size: 18px;
       line-height: 150%; }
@@ -1338,6 +1380,13 @@ img {
         .subscribe-form__button {
           margin-top: 0;
           margin-bottom: 0; } }
+      .subscribe-form__button:hover {
+        padding: 12px 30px;
+        color: #FFFFFF;
+        background-color: #3671E9;
+        border: 2px solid #FFFFFF; }
+      .subscribe-form__button:active {
+        color: #E0E0E0; }
 
 .footer__logo {
   width: 135px;
@@ -1369,6 +1418,10 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%; }
+    .footer-list__link:hover {
+      text-decoration: underline; }
+    .footer-list__link:active {
+      color: #E0E0E0; }
 
 .footer__top {
   display: -webkit-box;

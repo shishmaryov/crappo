@@ -46,5 +46,14 @@
     background-color: $accent-color;
     border-radius: 50px;
     @include txt-stnd-mdm;
+
+    &:hover {
+      background-color: #598EFB;
+    }
+
+    &:active {
+      color: $grey-3;
+      background-color: #1F5BD4;
+    }
   }
 }

@@ -23,7 +23,7 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" type="text/css" href="css/style.min.css">
   <script language="JavaScript" type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-  <script language="JavaScript" type="text/javascript" src="js/script.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/script.min.js"></script>
   <title>Crappo</title>
 </head>
 <body class="index-page">
@@ -100,8 +100,8 @@
       <p class="check__text">Let’s check your hash rate to see how much you will earn today, Exercitation veniam consequat sunt nostrud amet.</p>
       <div class="check__calc">
         <form class="rate-form" method="POST" action="https://echo.htmlacademy.ru/">
-          <input type="number" class="calc__input-rate" name="rate" placeholder="Enter your hash rate">
-          <input type="text" class="calc__input-ths" name="th/s" placeholder="TH/s">
+          <input type="number" class="calc__input-rate" name="rate" placeholder="Enter your hash rate" required>
+          <input type="text" class="calc__input-ths required" name="th/s" placeholder="TH/s" required>
           <button type="submit" class="calc__button">Calculate</button>
         </form>
         <div class="check__revenue">
@@ -168,7 +168,7 @@
             <p class="subscribe__text">Join now with CRAPPO to get the latest news and start mining now</p>
           </div>
           <form action="https://echo.htmlacademy.ru/" method="POST" class="subscribe-form">
-            <input type="text" name="email" placeholder="Enter your email" class="subscribe-form__input">
+            <input type="text" name="email" placeholder="Enter your email" class="subscribe-form__input" required>
             <button type="submit" class="subscribe-form__button">Subscribe</button>
           </form>
         </div>

@@ -10,3 +10,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+input:invalid {
+  border-color: red;
+}
+input:valid {
+  border-color: green;
+}

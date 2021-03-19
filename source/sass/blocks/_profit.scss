@@ -5,7 +5,11 @@
   margin-bottom: 190px;
 
   &__text-block {
+    margin-bottom: 70px;
 
+    @media(min-width: 1200px){
+      margin-bottom: 0;
+    }
   }
 
   &__title {

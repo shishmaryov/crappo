@@ -8,14 +8,14 @@
   border-radius: 15px;
 
   &::before {
-    content: url("../../img/subscribe-before.svg");
+    content: url("../img/subscribe-before.svg");
     position: absolute;
     top: 0;
     left: 0;
   }
 
   &::after {
-    content: url("../../img/subscribe-after.svg");
+    content: url("../img/subscribe-after.svg");
     position: absolute;
     right: 0;
     bottom: 0;

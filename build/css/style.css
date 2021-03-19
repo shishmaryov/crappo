@@ -1273,12 +1273,12 @@ img {
   background-color: #3671E9;
   border-radius: 15px; }
   .subscribe::before {
-    content: url("../../img/subscribe-before.svg");
+    content: url("../img/subscribe-before.svg");
     position: absolute;
     top: 0;
     left: 0; }
   .subscribe::after {
-    content: url("../../img/subscribe-after.svg");
+    content: url("../img/subscribe-after.svg");
     position: absolute;
     right: 0;
     bottom: 0; }

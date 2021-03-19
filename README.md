@@ -21,3 +21,8 @@ Demo:
 - SCSS 
 - Javascript
 - Mobile first
+
+## Google page speed
+
+- Mobile: 99/100
+- Desktop: 100/100

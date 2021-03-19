@@ -10,14 +10,20 @@
   }
 
   &__text-block {
+    width: 100%;
     margin-top: 80px;
   }
 
   &__title {
     margin-top: 25px;
     margin-bottom: 25px;
+    font-size: 30px;
     color: $white;
     @include h1;
+
+    @media(min-width: 768px){
+      @include h1;
+    }
   }
 
   &__text {

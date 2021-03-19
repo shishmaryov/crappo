@@ -1,7 +1,7 @@
 .calc {
 
   &__input-rate {
-    width: 400px;
+    width: 100%;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -11,6 +11,10 @@
     @include txt-l-rglr;
 
     @media(min-width: 1024px){
+      width: 400px;
+    }
+
+    @media(min-width: 1200px){
       text-align: left;
     }
 
@@ -30,7 +34,7 @@
     border-bottom: 1px solid $grey-3;
     @include txt-l-rglr;
 
-    @media(min-width: 1024px){
+    @media(min-width: 1200px){
       text-align: left;
     }
 

@@ -45,12 +45,18 @@
 
   &-form {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 570px;
-    flex-wrap: wrap;
+    margin-left: 50px;
+
+    @media(min-width: 1200px){
+      flex-wrap: nowrap;
+      margin-left: 0;
+    }
 
     &__input {
-      width: 375px;
+      width: 100%;
       margin-right: 40px;
       padding-bottom: 7px;
       color: $white;
@@ -59,6 +65,10 @@
       border-bottom: 1px solid $grey-1;
       @include txt-smll-rglr;
 
+      @media(min-width: 1200px){
+        width: 375px;
+      }
+
       &::placeholder {
         color: $white;
         @include txt-smll-rglr;
@@ -66,13 +76,20 @@
     }
 
     &__button {
+      margin-top: 40px;
       margin-right: 50px;
+      margin-bottom: 50px;
       padding: 14px 32px;
       color: $primary-color;
       background-color: $white;
       border: none;
       border-radius: 35px;
       @include txt-stnd-mdm;
+
+      @media(min-width: 1200px){
+        margin-top: 0;
+        margin-bottom: 0;
+      }
     }
   }
 }

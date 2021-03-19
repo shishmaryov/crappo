@@ -32,17 +32,13 @@
   }
 
   &__calc {
-    width: 90%;
+    width: 100%;
+    margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: $white;
     border-radius: 15px;
     box-shadow: 0px 10px 80px 0 rgba(57, 23, 119, 0.1);
-    margin-top: 50px;
-
-    @media(min-width: 768px){
-      width: 90%;
-    }
 
     @media(min-width: 1200px){
       position: absolute;
@@ -50,9 +46,9 @@
       top: 180px;
       left: calc(100% - 1100px);
       width: 945px;
+      margin-top: 20px;
       padding-top: 0;
       padding-bottom: 0;
-      margin-top: 20px;
     }
   }
 
@@ -60,5 +56,10 @@
     margin-right: 50px;
     margin-bottom: 50px;
     margin-left: 50px;
+    text-align: center;
+
+    @media(min-width: 1200px){
+      text-align: left;
+    }
   }
 }

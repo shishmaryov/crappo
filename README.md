@@ -19,7 +19,9 @@ Demo:
 
 - HTML5
 - SCSS 
+- Animate.css
 - Javascript
+- JQuery
 - Mobile first
 
 ## Google page speed

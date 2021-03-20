@@ -22,13 +22,13 @@
   <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" type="text/css" href="css/style.min.css">
-  <script language="JavaScript" type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
   <script language="JavaScript" type="text/javascript" src="js/script.js"></script>
   <title>Crappo</title>
 </head>
 <body class="index-page">
   <div class="black-bg">
-    <header class="header container">
+    <header class="header container wow animate__animated animate__fadeInDown">
       <div class="header__wrapper">
         <img src="img/logotypes/logo-crappo.svg" alt="Crappo">
         <div class="header__right">
@@ -58,9 +58,8 @@
         </button>
       </div>
     </header>
-
     <section class="container promo">
-      <div class="promo__text-block">
+      <div class="promo__text-block wow animate__animated animate__fadeInLeft">
         <div class="discount">
           <span class="discount__price">75% SAVE</span>
           <p class="discount__text">For the Black Friday weekend</p>
@@ -70,24 +69,22 @@
         <button class="promo__button">Try for FREE</button>
       </div>
       <img src="img/bitcoin.png" alt="Bitcoin" class="promo__img">
-
-
     </section>
     <div class="achievements container">
-      <div class="achievements__item achievements__item--30B">
+      <div class="achievements__item achievements__item--30B wow animate__animated animate__fadeInLeft">
         <span class="achievement__title">$30B</span>
         <p class="achievement__description">Digital Currency Exchanged</p>
       </div>
-      <div class="achievements__item achievements__item--10M">
+      <div class="achievements__item achievements__item--10M wow animate__animated animate__fadeInUp">
         <span class="achievement__title">10M+</span>
         <p class="achievement__description">Trusted Wallets Investor</p>
       </div>
-      <div class="achievements__item achievements__item--195">
+      <div class="achievements__item achievements__item--195 wow animate__animated animate__fadeInRight">
         <span class="achievement__title">195</span>
         <p class="achievement__description">Countries Supported</p>
       </div>
     </div>
-    <section class="why container">
+    <section class="why container  animate__animated animate__fadeInUp wow">
       <img src="img/mining.svg" alt="Mining" class="why__img">
       <div class="why__text-block">
         <h2 class="why__title">Why you should choose CRAPPO</h2>
@@ -96,12 +93,12 @@
       </div>
     </section>
     <section class="check container">
-      <h2 class="check__title">Check how much you can earn</h2>
-      <p class="check__text">Let’s check your hash rate to see how much you will earn today, Exercitation veniam consequat sunt nostrud amet.</p>
-      <div class="check__calc">
+      <h2 class="check__title wow animate__animated animate__fadeInUp">Check how much you can earn</h2>
+      <p class="check__text wow animate__animated animate__fadeInUp">Let’s check your hash rate to see how much you will earn today, Exercitation veniam consequat sunt nostrud amet.</p>
+      <div class="check__calc  animate__animated animate__fadeInUp">
         <form class="rate-form" method="POST" action="https://echo.htmlacademy.ru/">
-          <input type="number" class="calc__input-rate" name="rate" placeholder="Enter your hash rate">
-          <input type="text" class="calc__input-ths" name="th/s" placeholder="TH/s">
+          <input type="number" class="calc__input-rate" name="rate" placeholder="Enter your hash rate" required>
+          <input type="text" class="calc__input-ths required" name="th/s" placeholder="TH/s" required>
           <button type="submit" class="calc__button">Calculate</button>
         </form>
         <div class="check__revenue">
@@ -112,7 +109,7 @@
       </div>
     </section>
   </div>
-    <section class="cryptocurrencies container">
+    <section class="cryptocurrencies container animate__animated animate__fadeInUp wow ">
       <h2 class="cryptocurrencies__title">Trade securely and market the high growth cryptocurrencies.</h2>
       <ul class="cryptocurrencies__list">
         <li class="crypto">
@@ -139,45 +136,44 @@
       <section class="infrastructure container">
         <h2 class="infrastructure__title">Market sentiments, portfolio, and run the infrastructure of your choice</h2>
         <div class="invest">
-          <div class="invest__text-block">
+          <div class="invest__text-block wow animate__animated animate__fadeInLeft">
             <h3 class="invest__title">Invest Smart</h3>
             <p class="invest__text">Get full statistic information about the behaviour of buyers and sellers will help you to make the decision.</p>
             <a href="#" class="infrastructure__link invest__link">Learn More</a>
           </div>
-          <img src="img/chart.svg" alt="Chart">
+          <img src="img/chart.svg" alt="Chart" class="wow animate__animated animate__fadeInRight">
         </div>
         <div class="stat">
-          <img src="img/statisctic.svg" alt="Detailed Statistics">
-          <div class="stat__text-block">
+          <img src="img/statisctic.svg" alt="Detailed Statistics" class="wow animate__animated animate__fadeInLeft">
+          <div class="stat__text-block wow animate__animated animate__fadeInRight">
             <h3 class="stat__title">Detailed Statistics</h3>
             <p class="stat__text">View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.</p>
             <a href="#" class="infrastructure__link stat__link">Learn More</a>
           </div>
         </div>
         <div class="profit">
-          <div class="profit__text-block">
+          <div class="profit__text-block wow animate__animated animate__fadeInLeft">
             <h3 class="profit__title">Grow your profit and track your investments</h3>
             <p class="profit__text">Use advanced analytical tools. Clear TradingView charts let you track current and historical profit investments.</p>
             <a href="#" class="infrastructure__link profit__link">Learn More</a>
           </div>
-          <img src="img/grow-profit.svg" alt="Profit">
+          <img src="img/grow-profit.svg" alt="Profit" class="wow animate__animated animate__fadeInRight">
         </div>
-        <div class="subscribe">
+        <div class="subscribe animate__animated animate__fadeInUp wow">
           <div class="subscribe__text-block">
             <h3 class="subscribe__title">Start mining now</h3>
             <p class="subscribe__text">Join now with CRAPPO to get the latest news and start mining now</p>
           </div>
           <form action="https://echo.htmlacademy.ru/" method="POST" class="subscribe-form">
-            <input type="text" name="email" placeholder="Enter your email" class="subscribe-form__input">
+            <input type="text" name="email" placeholder="Enter your email" class="subscribe-form__input" required>
             <button type="submit" class="subscribe-form__button">Subscribe</button>
           </form>
         </div>
       </section>
     </div>
     <div class="black-bg">
-
       <footer class="footer container">
-        <div class="footer__top">
+        <div class="footer__top wow animate__animated animate__fadeInUp">
             <img src="img//logotypes/logo-crappo.svg" alt="Crappo" class="footer__logo">
             <ul class="footer-list footer-list--quick">
               <li class="footer-list__title">Quick Link</li>
@@ -230,10 +226,9 @@
               </ul>
             </div>
         </div>
-        <div class="footer__bottom">
+        <div class="footer__bottom wow animate__animated animate__fadeInUp">
           <p class="footer__copyright">©2021 CRAPPO. All rights reserved</p>
           <div class="footer__social-icons">
-
             <a href="#" class="social-icons__link">
               <img src="img/icons/icon-facebook.svg" alt="Facebook" class="social-icons__img">
             </a>
@@ -254,4 +249,7 @@
       </footer>
   </div>
 </body>
+<script>
+  new WOW().init();
+</script>
 </html>

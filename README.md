@@ -26,5 +26,5 @@ Demo:
 
 ## Google page speed
 
-- Mobile: 99/100
+- Mobile: 97/100
 - Desktop: 100/100

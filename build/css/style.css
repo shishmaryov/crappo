@@ -1961,7 +1961,10 @@ input:valid {
     margin-bottom: 70px; }
     @media (min-width: 1200px) {
       .profit__text-block {
-        margin-bottom: 0; } }
+        margin-bottom: 0;
+        max-width: 430px;
+      
+      } }
   .profit__title {
     margin-top: 0;
     margin-bottom: 25px;

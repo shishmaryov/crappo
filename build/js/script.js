@@ -4,6 +4,12 @@ $(document).ready(function(){
 	});
 });
 
+document.querySelector('.calc__button').addEventListener('.click', () => {
+let m = document.querySelector('.calc__input-rate).value * document.querySelector('.calc__input-ths').value;
+	document.querySelector('.revenue__result').innerHTML =  (m/1.55) + " " + (m*14) + (m*12) + "ETH" + `<span class="revenue__result--blue"> ` + `($` + m/6 + `)` + `</span>`;
+
+});
+
 $('select#cities').on('change', function() {
   $('input[name="city"]').val(this.value);
 });

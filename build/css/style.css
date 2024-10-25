@@ -1749,6 +1749,7 @@ input:valid {
     .cryptocurrencies {
       margin-top: 450px; } }
   .cryptocurrencies__title {
+    color: #fff;
     margin-top: 0;
     margin-right: auto;
     margin-bottom: 0;
@@ -1756,10 +1757,10 @@ input:valid {
     font-weight: 700;
     font-size: 30px;
     line-height: 150%;
-    text-align: center;
-    color: #0D0D2B; }
+    text-align: center; }
     @media (min-width: 1200px) {
       .cryptocurrencies__title {
+        color: #fff;
         max-width: 750px;
         font-weight: 700;
         font-size: 40px;

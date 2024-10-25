@@ -1367,7 +1367,7 @@ input:valid {
     line-height: 150%; }
   .promo__button {
     position: relative;
-    width: 202px;
+    min-width: 202px;
     height: 64px;
     margin-bottom: 50px;
     padding: 18.5px 72px 190px 24px;

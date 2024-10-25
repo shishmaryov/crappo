@@ -1,4 +1,4 @@
-# Lasles VPN
+# Crappo
 Web developer: Konstantin Shishmaryov
 
 Designer: Illiyin Studio
